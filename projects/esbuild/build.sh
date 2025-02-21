@@ -16,4 +16,5 @@
 ################################################################################
 
 cp fuzz/js.dict $OUT/fuzz_transform_js.dict
+zip $OUT/fuzz_transform_js_seed_corpus.zip scripts/*.js
 compile_go_fuzzer github.com/evanw/esbuild/fuzz FuzzTransformJS fuzz_transform_js
