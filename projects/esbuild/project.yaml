@@ -1,0 +1,11 @@
+homepage: "https://github.com/evanw/esbuild"
+language: go
+primary_contact: "evan.exe@gmail.com"
+auto_ccs:
+  - "daniel.lobl@shopify.com"
+  - "dloebl.2000@gmail.com"
+main_repo: "https://github.com/evanw/esbuild.git"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
